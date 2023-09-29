@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Navbar from "@/components/ui/navbar/navbar";
+import Navbar from "@/components/navbar/navbar";
+import HeroArea from "@/components/hero-area/hero-area";
 
 export default function Home() {
   return (
@@ -15,9 +16,8 @@ export default function Home() {
         ></link>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="container">
-        <Navbar />
-      </div>
+      <Navbar />
+      <HeroArea />
     </>
   );
 }

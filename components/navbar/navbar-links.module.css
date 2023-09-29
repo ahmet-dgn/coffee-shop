@@ -1,0 +1,13 @@
+.navbar_item_list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar_item_list li {
+    line-height: 150%;
+    margin-left: 37px;
+}
+
+.navbar_item_list li:first-of-type{
+    margin-left: 0;
+}
