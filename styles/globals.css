@@ -74,10 +74,4 @@ body {
   color: var(--dark-text-color);
 }
 
-.container{
-  max-width: 1320px;
-  padding-left: 12px;
-  padding-right: 12px;
-  margin-right: auto;
-  margin-left: auto;
-}
+

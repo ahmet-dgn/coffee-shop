@@ -12,7 +12,7 @@ function HeroAreaText() {
         For those who believe in the power of a perfectly brewed cup, we're here
         to make your mornings extraordinary.
       </p>
-      <Button />
+      <Button>View Menu</Button>
     </div>
   );
 }

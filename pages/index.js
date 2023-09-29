@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/components/navbar/navbar";
 import HeroArea from "@/components/hero-area/hero-area";
-
+import OurStory from "@/components/our-story/our-story";
 export default function Home() {
   return (
     <>
@@ -11,13 +11,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
         ></link>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <HeroArea />
+      <OurStory />
     </>
   );
 }

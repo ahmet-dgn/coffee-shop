@@ -1,0 +1,33 @@
+.content_title_area{
+    position: relative;
+    width: fit-content;
+  
+  }
+.content_title{
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 49px;
+    color: var(--dark-text-color);
+    margin-bottom: 10.07px;
+}
+
+.content_title_decoration{
+    width: 100px;
+    height: 2px;
+    background: var(--dark-text-color);
+    margin: auto;
+    position: relative;
+}
+
+.content_title_decoration::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background: var(--dark-text-color);
+    bottom: -4px;
+    left: calc(50% - 5px);
+}

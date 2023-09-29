@@ -1,9 +1,9 @@
 import classes from "./button.module.css";
 
-function Button() {
+function Button({ children }) {
   return (
     <button className={`${classes.btn} ${classes.btn_primary}`}>
-      View Menu
+      {children}
     </button>
   );
 }

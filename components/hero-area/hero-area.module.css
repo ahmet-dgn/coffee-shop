@@ -8,13 +8,4 @@
 
 .hero_area_layout_bg{
     background-color: var(--content-bg-lght-color);
-
 }
-
-.container{
-    max-width: 1320px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-right: auto;
-    margin-left: auto;
-  }
