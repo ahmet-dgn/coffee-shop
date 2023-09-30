@@ -1,0 +1,39 @@
+.menu_area{
+    background-color: var( --content-bg-dark-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.menu_area_layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_area .menu_title{
+    color: var(--light-tex-color) !important;
+
+}
+
+.content_title_decoration{
+    width: 100px;
+    height: 2px;
+    background: var(--light-tex-color);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.content_title_decoration::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background: var(--light-tex-color);
+    bottom: -4px;
+    left: calc(50% - 5px);
+}
+
+

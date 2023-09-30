@@ -5,6 +5,26 @@
 .our_story_desc{
     font-weight: 400;
     line-height: 200%;
-    margin-top: 38.07px;
     max-width: 416px;   
+    margin-top: 38px;
+}
+
+.content_title_decoration{
+    width: 100px;
+    height: 2px;
+    background: var( --dark-text-color);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+
+.content_title_decoration::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background: var( --dark-text-color);
+    bottom: -4px;
+    left: calc(50% - 5px);
 }
