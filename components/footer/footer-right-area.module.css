@@ -1,0 +1,23 @@
+.footer_right_area{
+    width: 33.3333%;
+    max-width: 100%;
+    padding-left: 17px;
+}
+
+.footer_right_area_title{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 35px;
+}
+.footer_right_area_adress{
+    line-height: 200%;
+    padding-left: 17px;
+}
+.footer_right_area_adress_layout{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

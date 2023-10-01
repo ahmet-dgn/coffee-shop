@@ -1,0 +1,40 @@
+.footer_middle_area{
+    width: 33.3333%;
+    max-width: 100%;
+    padding-left: 9px;
+}
+
+.footer_middle_area_title{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 35px;
+}
+
+.footer_middle_area_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: 5px;
+}
+
+.footer_middle_area_item_day,
+.footer_middle_area_item_time{
+    line-height: 200%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.footer_middle_area_item_time{
+    letter-spacing: 0.2px;
+}
+.footer_middle_area_item_dashes{
+    border: 1px dashed var(--dark-text-color);
+    width: 100%;
+    margin-left: 21px;
+   margin-right: 21px;
+   flex-grow: 1;
+}

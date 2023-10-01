@@ -5,10 +5,8 @@ function OurStoryTextArea() {
   return (
     <div className={classes.our_text_area}>
       {" "}
-      <ContentTitle>
-        Our story
-        <div className={classes.content_title_decoration}></div>
-      </ContentTitle>
+      <ContentTitle>Our story</ContentTitle>
+      <div className={classes.content_title_decoration}></div>
       <p className={classes.our_story_desc}>
         Nestled in a charming corner, 'Mornings Brew' unfurled its inviting
         aroma. A haven where strangers became friends, laptops birthed novels,

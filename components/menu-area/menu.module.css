@@ -22,7 +22,7 @@
     background: var(--light-tex-color);
     margin: auto;
     position: relative;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .content_title_decoration::after{

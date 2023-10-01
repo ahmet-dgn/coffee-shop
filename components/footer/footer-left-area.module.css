@@ -1,0 +1,18 @@
+.footer_left_area{
+    width: 33.3333%;
+    max-width: 100%;
+}
+
+.footer_left_area_about_us{
+    line-height: 200%;
+    margin-top: 32px;
+    font-weight: 400;
+     max-width: 414px;
+}
+.footer_left_area_scoial_icons{
+    display: flex;
+    margin-top: 34px;
+}
+.footer_left_area_scoial_icon{
+    margin-right: 26px;
+}

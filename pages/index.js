@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/navbar";
 import HeroArea from "@/components/hero-area/hero-area";
 import OurStory from "@/components/our-story/our-story";
 import Menu from "@/components/menu-area/menu";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <HeroArea />
       <OurStory />
       <Menu />
+      <Footer />
     </>
   );
 }

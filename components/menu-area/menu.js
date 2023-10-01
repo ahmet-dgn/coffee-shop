@@ -11,8 +11,8 @@ function Menu() {
         <div className={classes.menu_area_layout}>
           <ContentTitle>
             <span className={classes.menu_title}>Our menu</span>
-            <div className={classes.content_title_decoration}></div>
           </ContentTitle>
+          <div className={classes.content_title_decoration}></div>
           <CategoryBtns />
           <MenuItems />
         </div>{" "}
