@@ -6,7 +6,7 @@ import OurStoryTextArea from "./our-story-text-area";
 function OurStory() {
   return (
     <Container>
-      <div className={classes.our_story_area}>
+      <section className={classes.our_story_area} id="our_story">
         <Image
           className={classes.our_story_image}
           src="/images/our-story-image.png"
@@ -15,7 +15,7 @@ function OurStory() {
           height={426}
         />
         <OurStoryTextArea />
-      </div>
+      </section>
     </Container>
   );
 }

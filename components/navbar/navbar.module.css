@@ -6,9 +6,5 @@
     align-items: center;
     flex-wrap: wrap;
 }
-@media(min-width:769px){
-    .mobile_menu_icon{
-        display: none;
-    }
-}
+
 

@@ -5,7 +5,7 @@ import Container from "../ui/container";
 
 function HeroArea() {
   return (
-    <div className={classes.hero_area_layout_bg}>
+    <section className={classes.hero_area_layout_bg}>
       <Container>
         <div className={classes.hero_area_layout}>
           <HeroAreaText />
@@ -18,7 +18,7 @@ function HeroArea() {
           />
         </div>
       </Container>
-    </div>
+    </section>
   );
 }
 

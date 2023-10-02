@@ -4,7 +4,7 @@ import Button from "../ui/button";
 
 function FooterRightArea() {
   return (
-    <div className={classes.footer_right_area}>
+    <div className={classes.footer_right_area} id="contact">
       {" "}
       <p className={classes.footer_right_area_title}>Contact info</p>
       <div className={classes.footer_right_area_adress_layout}>
