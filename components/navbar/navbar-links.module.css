@@ -1,6 +1,14 @@
 .navbar_item_list{
     display: flex;
     justify-content: flex-end;
+    margin-top: -1px;
+}
+@media(max-width:768px){
+    .navbar_item_list{
+        height: 0px;
+        overflow: hidden;
+        width: 100%;
+    }
 }
 
 .navbar_item_list li {

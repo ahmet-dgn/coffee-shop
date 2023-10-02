@@ -10,6 +10,7 @@ function HeroArea() {
         <div className={classes.hero_area_layout}>
           <HeroAreaText />
           <Image
+            className={classes.hero_image}
             src="/images/hero-area-image.png"
             alt="Coffee"
             width={652}

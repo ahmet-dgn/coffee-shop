@@ -3,12 +3,12 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 .menu_area_layout{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
 }
 
 .menu_area .menu_title{
@@ -35,5 +35,13 @@
     bottom: -4px;
     left: calc(50% - 5px);
 }
-
+@media(max-width:1023px){
+    .menu_area{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .content_title_decoration{
+        margin-bottom: 7px;
+    }
+}
 

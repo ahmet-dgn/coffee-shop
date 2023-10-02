@@ -3,7 +3,7 @@ import Button from "../ui/button";
 
 function HeroAreaText() {
   return (
-    <div>
+    <div className={classes.hero_text_area}>
       <p className={classes.hero_area_title}>
         Sip, Smile, <br />
         Repeat

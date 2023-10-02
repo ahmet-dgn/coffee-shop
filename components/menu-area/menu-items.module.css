@@ -67,3 +67,18 @@
     color: var(--light-tex-color);
     margin-top: 10px;
 }
+
+@media(max-width:1023px){
+    .menu_item{
+        width: 100%;
+    }
+}
+
+@media(max-width:576px){
+    .menu_item_image{
+        display: none;
+    }
+    .menu_items_area{
+        max-height: 418px;
+    }
+}

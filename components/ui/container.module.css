@@ -5,3 +5,13 @@
     margin-right: auto;
     margin-left: auto;
   }
+  @media(max-width:768px) {
+    .container{
+      max-width: 720px;
+    }
+  }
+  @media(max-width:576px) {
+    .container{
+      max-width: 540px;
+    }
+  }

@@ -8,4 +8,13 @@
 
 .footer_area_layout{
     display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:1023px){
+    .footer_area{
+        padding-top: 50px;
+        padding-bottom: 50px;
+     
+    }
 }

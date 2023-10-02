@@ -13,22 +13,10 @@
     margin-bottom: 10.07px;
 }
 
-.content_title_decoration{
-  width: 100px;
-  height: 2px;
-  background: var(--light-tex-color);
-  margin: auto;
-  position: relative;
-  margin-top: 10px;
-}
-
-.content_title_decoration::after{
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  transform: rotate(45deg);
-  background: var(--light-tex-color);
-  bottom: -4px;
-  left: calc(50% - 5px);
+@media(max-width:1023px){
+  .content_title{
+    font-size: 32px;
+    line-height: 120%;
+    margin-bottom: 11.07px;
+  }
 }

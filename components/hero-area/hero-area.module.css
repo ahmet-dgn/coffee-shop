@@ -9,3 +9,29 @@
 .hero_area_layout_bg{
     background-color: var(--content-bg-lght-color);
 }
+
+.hero_image{
+    max-width: 100%;
+}
+@media(max-width:1320px) and (min-width:769px){
+    .hero_image{
+        width: 50%;
+        object-fit: contain;
+    }
+}
+@media(max-width:768px){
+    .hero_image{
+        width:333.55px ;
+        height: 287px;
+    }
+}
+
+@media(max-width:576px){
+    .hero_area_layout{
+       flex-direction: column-reverse;
+    }
+    .hero_image{
+        width:431px ;
+        height: auto;
+    }
+}

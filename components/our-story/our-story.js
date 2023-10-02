@@ -8,6 +8,7 @@ function OurStory() {
     <Container>
       <div className={classes.our_story_area}>
         <Image
+          className={classes.our_story_image}
           src="/images/our-story-image.png"
           alt="Coffee"
           width={572}
