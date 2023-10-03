@@ -5,7 +5,7 @@
 
 .footer_left_area_about_us{
     line-height: 200%;
-    margin-top: 32px;
+    margin-top: 31px;
     font-weight: 400;
      max-width: 414px;
 }
@@ -20,6 +20,6 @@
 @media (max-width: 1023px){
     .footer_left_area{
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 47px;
     }
 }

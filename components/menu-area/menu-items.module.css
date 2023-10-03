@@ -10,7 +10,7 @@
 }
 
 .menu_items_area::-webkit-scrollbar {
-    width: 8px;
+   display: none;
   
   }
 .menu_items_area::-webkit-scrollbar-thumb {

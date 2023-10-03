@@ -5,7 +5,7 @@ const menu = [
     category: "coffee",
     price: 4.99,
     img: "/images/menu-images/espresso.png",
-    desc: `Fresh-brewed espresso.`,
+    desc: `Water, Brewed Espresso.`,
   },
   {
     id: 2,

@@ -1,5 +1,4 @@
 import classes from "./hero-area-text.module.css";
-import Button from "../ui/button";
 
 function HeroAreaText() {
   return (
@@ -12,7 +11,9 @@ function HeroAreaText() {
         For those who believe in the power of a perfectly brewed cup, we're here
         to make your mornings extraordinary.
       </p>
-      <Button>View Menu</Button>
+      <a className={classes.hero_area_btn} href="#menu">
+        View Menu
+      </a>
     </div>
   );
 }

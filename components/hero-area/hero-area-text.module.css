@@ -49,3 +49,19 @@
         width: 290px ;  
     }
 }
+
+.hero_area_btn{
+    line-height: 150%;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: var(--light-tex-color);
+    border: 1px solid var(--primary-color);
+    text-decoration: none;
+    display: inline-block;
+}
+.hero_area_btn:hover{
+    background-color:var(--primary-color-hover);
+    order: 1px solid var(--primary-color-ver);
+}

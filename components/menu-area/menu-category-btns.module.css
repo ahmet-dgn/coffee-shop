@@ -22,3 +22,10 @@
     border: 1px solid var(--primary-color);
     border-radius: 3.2px;
 }
+
+.outline_btn_primary:hover{
+    cursor: pointer;
+    border: 1px solid var(--primary-color-hover);
+    color: var( --light-tex-color);
+    background-color: var(--primary-color-hover);
+}

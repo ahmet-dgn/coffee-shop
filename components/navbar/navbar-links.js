@@ -1,8 +1,6 @@
 import classes from "./navbar-links.module.css";
 import React, { useState } from "react";
 import { useEffect } from "react";
-import Link from "next/link";
-import Image from "next/image";
 
 function NavbarLinks() {
   const [isSet, setStatus] = useState(false);
@@ -19,7 +17,7 @@ function NavbarLinks() {
 
   return (
     <>
-      <Image
+      <img
         onClick={menuClickHandler}
         className={classes.mobile_menu_icon}
         src="/images/mobile-menu-icon.svg"
@@ -35,18 +33,16 @@ function NavbarLinks() {
         }
       >
         <li className={classes.scroll_link}>
-          <Link href="/">Home</Link>
+          <a href="/">Home</a>
         </li>
         <li className={classes.scroll_link}>
-          <Link href="#our_story">About Us</Link>
+          <a href="#our_story">About Us</a>
         </li>
         <li className={classes.scroll_link}>
-          {" "}
-          <Link href="#menu">Menu</Link>
+          <a href="#menu">Menu</a>
         </li>
         <li className={classes.scroll_link}>
-          {" "}
-          <Link href="#contact">Contact Us</Link>
+          <a href="#contact">Contact Us</a>
         </li>
       </ul>
     </>
